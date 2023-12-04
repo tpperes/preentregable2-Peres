@@ -58,7 +58,6 @@ iframe{
 }
 
 main{
-    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -122,8 +121,7 @@ footer{
         flex-direction: row;
     }
         
-    }
-
+    
     main{
         display: grid;
         grid-template-columns:auto auto;
@@ -188,6 +186,8 @@ footer{
         grid-column: span 2;
         grid-row: 3/5;
     }
+
+}
 
 
 
